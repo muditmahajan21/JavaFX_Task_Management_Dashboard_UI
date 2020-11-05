@@ -1,0 +1,46 @@
+.text-input {
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #D4CEE3;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to top left, #58bfbe, #369190);
+    /*-fx-background-color: #58bfbe;*/
+    -fx-background-radius: 15;
+    /*
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-border-color: #033837;
+    -fx-border-insets: -5;
+    */
+}
+
+.button:hover {
+    -fx-background-color: #369190;
+    -fx-background-radius: 15;
+}
+
+.button:pressed {
+    -fx-background-color: #1b7574;
+    -fx-background-radius: 15;
+}
+
+.button-exit {
+    -fx-background-color: #282A33;
+    -fx-background-radius: 2em;
+}
+
+.button-exit:hover {
+    -fx-background-color: #FF5555;
+    -fx-background-radius: 2em;
+}
+
+.button-exit:pressed {
+    -fx-background-color: #9E262C;
+    -fx-background-radius: 2em;
+}
+
+
+.text-field {
+
+}
